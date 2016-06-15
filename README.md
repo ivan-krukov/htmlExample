@@ -1,6 +1,6 @@
 # Silly example
 
-This is a simplistic example of using a clickable table with HTMLWidgets.
+This is a simplistic example of building an interactive HTML table from a matrix with `HTMLWidgets`.
 
 # Description
 
@@ -16,8 +16,8 @@ htmlwidgets::scaffoldWidget('exampleWidget')
 
 | Description  | Location                              |
 | ------------ | ------------------------------------- |
-| `js` source  | `inst/htmlwidgets/exampleWidget.js    |
-| `css` styles | `inst/htmlwidgetsl/tableStyle.js      |
+| `js` source  | `inst/htmlwidgets/exampleWidget.js`   |
+| `css` styles | `inst/htmlwidgetsl/tableStyle.js`     |
 | config file  | `inst/htmlwidgets/exampleWidget.yaml` |
 | `R` bindings | `R/exampleWidget.R`                   |
 
@@ -29,6 +29,6 @@ library(htmlExample)
 exampleWidget(matrix(c(1,0,0,0,1,0,0,0,1), nrow = 3))
 ```
 
-This will bring up a clickable table that shows the index and value of the table cells.
+This will bring up a hover-able table that shows the index and value of the table cells.
 
 The suggested running environemnt is `RStudio`.
