@@ -1,0 +1,14 @@
+table#dataTable {
+    border-collapse: collapse;
+}
+
+table, th, td {
+    font-family: monospace;
+    border: 1px dotted red;
+    cursor: default;
+    text-align: center;
+}
+
+td:hover {
+  border: 1px solid blue;
+}
